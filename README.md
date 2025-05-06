@@ -3,6 +3,7 @@
 
 [![Elixir](https://img.shields.io/badge/Elixir-1.18-purple.svg)](https://elixir-lang.org)
 [![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
+[![Author](https://img.shields.io/badge/author-ViniluzCX-black)](https://github.com/ViniluzCX)
 
 
 ## 🚀 About the Project
