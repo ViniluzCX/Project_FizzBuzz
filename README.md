@@ -3,7 +3,7 @@
 
 [![Elixir](https://img.shields.io/badge/Elixir-1.18-purple.svg)](https://elixir-lang.org)
 [![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
+
 
 ## 🚀 About the Project
 
@@ -33,7 +33,9 @@ Run in IEx:
 
 ```elixir
 FizzBuzz.build("numbers.txt")
- ["1", "2", "Fizz", "4", "Buzz", "Buzz", "FizzBuzz"]
+returns:
+ ["1", "2", "Fizz", "4", "Buzz", "Buzz", "FizzBuzz"] 
+ ```
 
 🧪 Technologies Used
 Elixir 1.18
