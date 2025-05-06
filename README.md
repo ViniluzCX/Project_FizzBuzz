@@ -1,5 +1,5 @@
 # 📘 FizzBuzz Project in Elixir
-# 📘 Leia este README em [Português](README.pt-BR.md)
+##📘 Leia este README em [Português](README.pt-BR.md)
 
 [![Elixir](https://img.shields.io/badge/Elixir-1.18-purple.svg)](https://elixir-lang.org)
 [![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
