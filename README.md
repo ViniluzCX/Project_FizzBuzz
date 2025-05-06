@@ -1,21 +1,56 @@
-# FizzBuzz
+# 📘 FizzBuzz Project in Elixir
 
-**TODO: Add description**
+[![Elixir](https://img.shields.io/badge/Elixir-1.18-purple.svg)](https://elixir-lang.org)
+[![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
+[![Author](https://img.shields.io/badge/author-ViniluzCX-black)](https://github.com/ViniluzCX)
 
-## Installation
+## 🚀 About the Project
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizz_buzz` to your list of dependencies in `mix.exs`:
+This project implements the classic **FizzBuzz** logic using **Elixir**, with a focus on file reading, string manipulation, functional programming, and core Elixir tools like `Enum`, `case`, `pattern matching`, and the `pipe operator`.
+
+### 🔍 What is FizzBuzz?
+
+FizzBuzz is a common programming challenge that prints:
+
+- `"Fizz"` for numbers divisible by 3
+- `"Buzz"` for numbers divisible by 5
+- `"FizzBuzz"` for numbers divisible by both 3 and 5
+- The number itself if none of the above
+
+## 📂 Project Structure
+
+- `build/1`: Reads the content of the provided file
+- `handle_file_read/1`: Handles success or failure of file reading
+- `convert_and_evaluate_number/1`: Converts strings to integers and evaluates them
+- `evaluate_number/1`: Applies the FizzBuzz rules
+
+## 📄 Example Usage
+
+Assuming a file called `numbers.txt` with the content: 1,2,3,4,5,10,15
+
+Run in IEx:
 
 ```elixir
-def deps do
-  [
-    {:fizz_buzz, "~> 0.1.0"}
-  ]
-end
-```
+FizzBuzz.build("numbers.txt")
+ ["1", "2", "Fizz", "4", "Buzz", "Buzz", "FizzBuzz"]
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/fizz_buzz>.
+🧪 Technologies Used
+Elixir 1.18
 
+IEx (Interactive Elixir)
+
+Mix (Elixir build tool)
+
+💡 Key Concepts Practiced
+Pattern Matching
+
+Tuples
+
+Pipe Operator (|>)
+
+Anonymous Functions (fn)
+
+Modular Function Definitions
+
+ 
