@@ -23,11 +23,12 @@ O projeto lê um arquivo de texto contendo uma sequência de números separados 
 
 Suponha que você tenha um arquivo chamado `numbers.txt` com o seguinte conteúdo: 1,2,3,4,5,10,15
 
-´´´elixir
-Ao executar:
+Execute :
+```elixir
 FizzBuzz.build("numbers.txt")
-O retorno será
-["1", "2", "Fizz", "4", "Buzz", "Buzz", "FizzBuzz"] 
+retorno:
+ ["1", "2", "Fizz", "4", "Buzz", "Buzz", "FizzBuzz"] 
+ ```
 
 🛠️ Tecnologias
 Elixir 1.18
