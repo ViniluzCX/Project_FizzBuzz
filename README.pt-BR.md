@@ -1,4 +1,5 @@
 # 📘 Projeto FizzBuzz em Elixir
+  📘 Read this README in [English](README.md)
 
 Este projeto implementa a lógica clássica do **FizzBuzz** utilizando a linguagem **Elixir**, com foco em leitura de arquivos, manipulação de strings e uso de estruturas funcionais como `Enum`, `case`, `pattern matching` e `pipe operator`.
 
